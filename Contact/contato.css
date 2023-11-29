@@ -19,6 +19,11 @@ div#cont-form{
     flex-direction: column;
     gap: 4rem;
 }
+
+img#icon{
+    width: 5rem;
+
+}
 div#cont-form img{
     width: 30rem;
 }

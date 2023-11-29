@@ -16,6 +16,9 @@
     gap: 12rem;
 }
 
+img#icon{
+  width: 5rem;
+}
 nav img{
     width: 3rem;
 }
@@ -31,9 +34,6 @@ div#nav{
     gap: 5rem;
 }
 
-
-
-
 section#problema{
     display: flex;
     padding: 4rem;
@@ -42,7 +42,6 @@ section#problema{
     justify-content: space-around;
     background-color: #8adaee;
 }
-
 
 div#cont-problema{
     display: flex;
@@ -66,9 +65,6 @@ div#cont-problema p{
 section#problema img{
     width: 34rem;
 }
-
-
-
 
 section#data h2{
     color: #ffffff;
