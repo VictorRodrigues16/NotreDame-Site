@@ -8,7 +8,7 @@
   }
 
 
-section{
+section#form{
     padding: 2rem;
     display: flex;
     justify-content: space-around;
@@ -66,8 +66,7 @@ section#form{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #ffffff;
-    gap: 3rem;
+    background-color: #8adaee;
 }
 
 section#form img{
@@ -99,7 +98,7 @@ div#cont-form{
 #tittle-form{
     display: flex;
     flex-direction: column;
-    color: #000000;
+    color: #0f4f64;
     gap: 1.3rem;
 }
 
@@ -160,14 +159,15 @@ textarea.form-input {
 section#colaboradores{
     display: flex;
     flex-direction: column;
-    padding: 4rem;
+    padding: 6rem;
     padding-bottom: 5rem;
-    background-color: #B5D9FA;
+    background-color: #5db6cc;
 }
 
 section#colaboradores h1{
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
+    color: #0f4f64;
 }
 
 section#colaboradores li{
@@ -225,6 +225,7 @@ section#footer{
     display: flex;
     justify-content: center;
     gap: 17rem;
+    padding: 3rem;
 }
 
 section#footer img{

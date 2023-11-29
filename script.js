@@ -97,11 +97,12 @@ githubL.addEventListener('click', () => {
     openNewTab(githubLu)
 })
 
-function openNewTab(urlnotreDame){
+function openNewTabNotreDame(urlnotreDame) {
     const siteN = window.open(urlnotreDame, '_blank')
     siteN.focus()
 }
+
 notreDame.addEventListener('click', () => {
-    openNewTab(urlnotreDame)
+    openNewTabNotreDame(urlnotreDame)
 })
 
