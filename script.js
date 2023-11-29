@@ -11,8 +11,6 @@ const githubLu = "https://github.com/CodedByLucke"
 const linkedinL = document.querySelector('#linkedinLu')
 const githubL = document.querySelector('#githubLu')
 
-const notreDame = document.querySelector('#notreDame')
-const urlnotreDame = "https://www.gndi.com.br/"
 
 submitButton.addEventListener("click", submitForm)
 
@@ -61,6 +59,10 @@ function resetarForm() {
 }
 
 function showError(message) {
+    const existingError = document.querySelector('.error-message');
+    if (existingError) {
+        existingError.remove();
+    }
     const errorElement = document.createElement("p")
     errorElement.className = "error-message"
     errorElement.textContent = message
@@ -76,14 +78,13 @@ function openNewTab(linkedinVr){
     const site = window.open(linkedinVr, '_blank')
     site.focus()
 }
-
 linkedinV.addEventListener('click', () => {
     openNewTab(linkedinVr)
 })
-
 githubV.addEventListener('click', () => {
     openNewTab(githubVr)
 })
+
 
 function openNewTab(linkedinLu){
     const site = window.open(linkedinLu, '_blank')
@@ -92,17 +93,8 @@ function openNewTab(linkedinLu){
 linkedinL.addEventListener('click', () => {
     openNewTab(linkedinLu)
 })
-
 githubL.addEventListener('click', () => {
     openNewTab(githubLu)
 })
 
-function openNewTabNotreDame(urlnotreDame) {
-    const siteN = window.open(urlnotreDame, '_blank')
-    siteN.focus()
-}
-
-notreDame.addEventListener('click', () => {
-    openNewTabNotreDame(urlnotreDame)
-})
 

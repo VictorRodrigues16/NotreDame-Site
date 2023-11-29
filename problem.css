@@ -168,25 +168,19 @@ section#footer a{
     cursor: pointer;
 }
 
-p#notreDame{
-    text-decoration: none;
-    font-size: 1.3rem;
-    color: #fff;
-    cursor: pointer;
-}
+
 #cont-footer{
     display: flex;
     gap: 3rem;
     align-items: center;
 }
 
-#colum1{
-    display: flex;
-    flex-direction: column;
-}
+
 
 #colum1, #colum2{
     line-height: 50px;
+    display: flex;
+    flex-direction: column;
 }
 
 footer{

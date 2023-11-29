@@ -1,14 +1,3 @@
-const notreDame = document.querySelector('#notreDame')
-const urlnotreDame = "https://www.gndi.com.br/"
-
-function openNewTabNotreDame(urlnotreDame) {
-    const siteN = window.open(urlnotreDame, '_blank')
-    siteN.focus()
-}
-
-notreDame.addEventListener('click', () => {
-    openNewTabNotreDame(urlnotreDame)
-})
 
 const dataBox = document.querySelectorAll('.data-content')
 
